@@ -5,11 +5,15 @@
 > In this project, we used Python and its libraries to gather data from a variety of sources and in a variety of formats, assess its quality and tidiness, then clean it. Technically called the data wrangling process. 
 
 ## Dataset Description 
-> The NoShow Appointment dataset consist of 100k medical appointments information in Brazil and we tried to answer questions on a number of characteristics that would influence whether or not patients show up for their appointment. the dataset has 14 columns namely PatientId, AppointmentID, Gender, ScheduledDay, AppointmentDay, Age,	Neighbourhood, Scholarship,	Hipertension, Diabetes, Alcoholism,	Handcap, SMS_received, and No-show. This data table presents patient biodata, scheduled appointment, and remarks on wether or not they show up for thier appointment. Hence, "No-show" column is dependent variable while others are independent variaables for this project.
+> The project is majorly to conduct wrangling on tweet archive dataset of Twitter user @dog_rates(https://twitter.com/dog_rates), also known as WeRateDogs. This archive/dataset consists of 2356 basic tweet data from November, 2015 to August, 2017. WeRateDogs is a Twitter account that rates people's dogs with a humorous comments.
 
-## Summary of Findings
-> The result shows that fewer patients are enrolled for welfare scheme and does not suggest motivation for patients showing up for appointment. Also, Gender may be a determinant for engagement as more female book more appointment than male whereas this does not lead to signicant show-up/appointment ratio.
- 
-> However, future analysis may further inspect and code the dependent variable as numeric in a separate column to determine correllation/causation.
+> Based on the archive dataset (i.e. WeRateDogs Twitter archive), another dataset is created which consists of image predictions alongside each tweet ID, image URL, and the image number that corresponded to the most confident prediction. also, additional live data was accessed via Api using tweet IDs in the twitter archive to generate current learnings from the dataset.
 
-> limititation of the report is that dependent variable is text format such that correlation test with other variables cannot be readily checked
+> The project main objectives is as follows: 
+> • Perform data wrangling (gathering, assessing and cleaning) on provided the sources of data. 
+> • Store, analyze, and visualize the wrangled data. 
+
+## Summary of Wrangling
+> The cleaned WeRateDogs Twitter data prepared for analysis has 2077 rows and 13 columns with which interesting analyses and visualizations were created to communicate insights derived therein.
+
+> To ensure engaged attention in the course of insights communication, Python libraries such as matplotlib and seaborn were deployed to generate some catchy visualizations for analysis.
