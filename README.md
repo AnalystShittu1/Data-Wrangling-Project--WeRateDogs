@@ -10,8 +10,9 @@
 > Based on the archive dataset (i.e. WeRateDogs Twitter archive), another dataset is created which consists of image predictions alongside each tweet ID, image URL, and the image number that corresponded to the most confident prediction. also, additional live data was accessed via Api using tweet IDs in the twitter archive to generate current learnings from the dataset.
 
 > The project main objectives is as follows: 
-• Perform data wrangling (gathering, assessing and cleaning) on provided the sources of data. 
-• Store, analyze, and visualize the wrangled data. 
+
+- Perform data wrangling (gathering, assessing and cleaning) on provided the sources of data. 
+- Store, analyze, and visualize the wrangled data. 
 
 ## Summary of Wrangling
 > The cleaned WeRateDogs Twitter data prepared for analysis has 2077 rows and 13 columns with which interesting analyses and visualizations were created to communicate insights derived therein.
